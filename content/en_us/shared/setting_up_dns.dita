@@ -27,6 +27,14 @@
 				port 53. To use the Eucalyptus DNS service, you must disable these services.</p>
 		</context>
 
+		<info>
+			<note>
+				<p>Be sure that when you set up DNS that you set the <codeph>nameserver</codeph> in <codeph>/etc/resolv.conf</codeph> on the CLC
+				to something <i>other</i> than the IP of the CLC, to avoid the possibility of the DNS service recursivly querying itself.
+				</p>
+			</note>
+		</info>
+
 	</taskbody>
 	<task id="setting_up_dns_subd">
 		<title>Configure the Domain and Subdomain</title>
