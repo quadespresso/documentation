@@ -73,7 +73,7 @@
 							<entry align="center">No</entry>
 						</row>
 						<row>
-							<entry><codeph>--platform-windows</codeph></entry>
+							<entry><codeph>--platform windows</codeph></entry>
 							<entry>Indicates the new image is based on Windows.</entry>
 							<entry align="center">No</entry>
 						</row>
